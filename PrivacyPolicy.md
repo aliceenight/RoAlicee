@@ -9,9 +9,8 @@ Everything RoAlicee saves stays in your browser, on your device:
 - Your RoAlicee settings
 - Your Tix balance and when you last got Tix
 - Whether the sidebar is collapsed
-- An Open Cloud API key, if you use the supported devices feature (see below)
 
-Settings, Tix and the sidebar state are also saved in roblox.com's local storage, so features can show up as soon as a page loads. The API key is never saved there.
+Settings, Tix and the sidebar state are also saved in roblox.com's local storage, so features can show up as soon as a page loads.
 
 Removing the extension deletes everything it stored in the extension's storage. The copy in roblox.com's local storage is removed when you clear roblox.com's site data.
 
@@ -19,9 +18,9 @@ Removing the extension deletes everything it stored in the extension's storage. 
 
 RoAlicee only sends requests to Roblox (roblox.com and rbxcdn.com). They are the same kind of requests the Roblox website makes, and they're sent with your Roblox login so features can show information about games, items and your account.
 
-## API key
+## Google Fonts
 
-To show which devices a game supports, RoAlicee creates an Open Cloud API key on your Roblox account, with a name starting with "RoAlicee Extension Key". The key has no permissions and is only sent to Roblox. You can delete it at any time on the Roblox Creator Dashboard, under API Keys. RoAlicee creates a new one if you use the feature again.
+If you turn on Custom Font, your browser downloads the font you picked from Google Fonts (fonts.googleapis.com and fonts.gstatic.com). Like any website, Google can see your IP address when this happens. Nothing about your Roblox account is sent. [Google's privacy policy](https://policies.google.com/privacy) applies to those requests.
 
 ## Links
 
